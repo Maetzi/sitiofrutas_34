@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+#paginainicio
+{
+	background:#FFC;
+}
+
+#titulo
+{
+	background:#A0522D;
+	color:#FAEBD7;
+}
+
+#pie
+{
+	background:#D2691E;
+	color:#FAEBD7;
+}
+
+#introduccion
+{
+	color:#003;
+	size:3;
+	text-align:justify;
+	border:solid;
+	width:98%;
+	margin:1%
+}
+
+#imagen
+{
+	text-align:center;
+	border:solid;
+	border-color:#CD5C5C;
+	margin-left:38%;
+	margin-right:38%;
+}
+
+#informacion
+{
+	border:solid;
+	border-color:#303;
+	color:#483D8B;
+	margin:20px;
+	text-align:justify;
+}
+
+#imagenf
+{
+	border:solid;
+	border-color:#2F4F4F;
+	width:16%;
+	height:auto;
+	text-align:center;
+	margin-left:42%;
+	margin-right:42%;
+	
+}
+
+	

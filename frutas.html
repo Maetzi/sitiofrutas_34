@@ -1,0 +1,1171 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/estilosfrutas.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="paginainicio">
+	<div data-role="header" id="titulo">
+		<h1>Documentación de las frutas</h1>
+	</div>
+    <div  id="introduccion">
+    <font size="+2">Las frutas son, quizás, los alimentos más llamativos por su diversidad de colores y formas. Pero además de lo que muestran a simple vista, forman parte de los alimentos con mayor cantidad de nutrientes y sustancias naturales altamente beneficiosas para la salud.
+Si nos detenemos a pensar, veremos que las frutas y todos los vegetales, sobreviven a la intemperie, enfrentando todo tipo de condiciones y agresiones meteorológicas. 
+Todo ello es posible gracias a las sustancias protectoras y antioxidantes naturales que poseen. En definitiva esas mismas sustancias son las que nos protegen cuando consumimos el alimento.
+Es decir que nos beneficiamos absolutamente con todas esas vitaminas y nutrientes que la fruta posee. Llenamos de vida todo nuestro organismo.</font>
+</div>
+<div id="imagen">
+<img width="450" src="imagenes/frutas.jpg">
+</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Bayas</a></li>
+            <li><a href="#page3">Cítricos</a></li>
+			<li><a href="#page4">Cucurbitáceas</a></li>
+            <li><a href="#page5">Exóticas</a></li>
+            <li><a href="#page6">Fruta dulce</a></li>
+            <li><a href="#page7">Frutos secos</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" id="pie">
+		<h4>Maetzi Sánchez Cilia</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Bayas</h1>
+	</div>
+	<div data-role="content">		
+		<ul data-role="listview">
+			<li><a href="#arandano">Arándano</a></li>
+            <li><a href="#frambuesa">Frambuesa</a></li>
+			<li><a href="#fresa">Fresa</a></li>
+            <li><a href="#gespinosa">Grosella espinosa</a></li>
+            <li><a href="#gnegra">Grosella negra</a></li>
+            <li><a href="#groja">Grosella roja</a></li>
+            <li><a href="#zarzamora">Zarzamora</a></li>
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Cítricos</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#limon">Limón</a></li>
+            <li><a href="#mandarina">Mandarina</a></li>
+			<li><a href="#naranja">Naranja</a></li>
+            <li><a href="#pomelo">Pomelo</a></li>
+		</ul>			
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Cucurbitáceas</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#melon">Melón</a></li>
+            <li><a href="#sandia">Sandía</a></li>
+		</ul>				
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Exóticas</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#aguacate">Aguacate</a></li>
+            <li><a href="#carambola">Carambola</a></li>
+			<li><a href="#coco">Coco</a></li>
+            <li><a href="#chirimoya">Chirimoya</a></li>
+            <li><a href="#datil">Dátil</a></li>
+            <li><a href="#pasion">Fruta de la pasión</a></li>
+            <li><a href="#kiwi">Kiwi</a></li>
+            <li><a href="#litchi">Litchi</a></li>
+            <li><a href="#mango">Mango</a></li>
+            <li><a href="#papaya">Papaya</a></li>
+            <li><a href="#pina">Pina</a></li>
+            <li><a href="#platano">Plátano</a></li>
+		</ul>				
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>Fruta dulce</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#albaricoque">Albaricoque</a></li>
+            <li><a href="#cereza">Cereza</a></li>
+			<li><a href="#ciruela">Ciruela</a></li>
+            <li><a href="#higo">Higo</a></li>
+            <li><a href="#kaki">Kaki</a></li>
+            <li><a href="#manzana">Manzana</a></li>
+            <li><a href="#melocoton">Melocotón</a></li>
+            <li><a href="#nectarina">Nectarina</a></li>
+            <li><a href="#nispero">Níspero</a></li>
+            <li><a href="#pera">Pera</a></li>
+            <li><a href="#uva">Uva</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>Frutos secos</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#almendra">Almendra</a></li>
+            <li><a href="#avellana">Avellana</a></li>
+			<li><a href="#cacahuate">Cacahuate</a></li>
+            <li><a href="#castana">Castana</a></li>
+            <li><a href="#nuez">Nuez</a></li>
+            <li><a href="#pacana">Pacana, Nuez Pecán</a></li>
+            <li><a href="#pistacho">Pistacho</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="arandano">
+	<div data-role="header">
+		<h1>Árandano</h1>
+	</div>
+	<div data-role="content">	
+    <div id="informacion">
+		¿Sabías que los arándanos se utilizaban antiguamente para prevenir y tratar las enfermedades relacionadas con las vías urinarias?
+Debido a un componente que contiene, aumenta la acidez de la orina y no permite que se desarrollen las bacterias en este medio, resultando efectivo para evitar la inflamación de la vejiga urinaria,para prevenir la cistitis, para los problemas de rinones, para los problemas de próstata, uretra y para todos losproblemas asociados con el tracto urinario en general.
+	</div>
+    <div id="imagenf">
+    <img src="imagenes/arandano.jpg" width="300px">
+    </div>
+    </div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="frambuesa">
+	<div data-role="header">
+		<h1>Frambuesa</h1>
+	</div>
+	<div data-role="content">	
+	<div id="informacion">
+    Entre otros nutrientes, sus frutas contienen cantidades considerables de ácido elágico, una sustancia que podría ser beneficiosa en la quimioprevención de ciertos tipos decáncer. Las frambuesas oscuras (negras y azules) contienen cantidades considerables de antocianina –igual que el ácido elágico, un biofenol– que se aplica contra los radicales libres de oxígeno, los que provocan la degeneración de células y de los órganos en mamíferos. Estudios de la Ohio State University dirigidos por el profesor Gary Stoner llevaron a la presentación de una solicitud de patente en los Estados Unidos (USPTO), respecto de los usos del ácido elágico y la antocianina para combatir la degeneración de órganos y diferentes tipos de cáncer.
+    </div>
+    <div id="imagenf">
+    <img src="imagenes/frambuesa.jpg" width="300">
+    </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="fresa">
+	<div data-role="header">
+		<h1>Fresa</h1>
+	</div>
+	<div data-role="content">	
+	<div id="informacion">
+    1. Las fresas son bajas en calorías.
+Una taza de fresas tiene unas 43 calorías. Además, contienen fibra, que ayuda a regular los procesos digestivos y a reducir la sensación de hambre.<br>
+2. Están cargadas de antioxidantes.
+Las fresas contienen fenoles, un compuesto químico. La antocianina es un tipo de fenol muy abundante en las fresas y que le proporciona su característico color. Es conocido también por sus poderosas cualidades como antioxidante natural que mantiene la salud de las células.<br>
+3. Son un antiinflamatorio natural.
+Los fenoles ayudan también a luchar contra los procesos inflamatorios del organismo inhibiendo la producción de la enzima ciclooxigenasa, del mismo modo que lo hacen compuestos como la aspirina o el ibuprofeno.<br>
+4. Son una fuente rica en vitaminas.
+Las fresas son una fuente de vitaminas del grupo B, tales como vitamina B6, la niacina, la riboflavina, el ácido pantoténico y el ácido fólico. También poseen una considerable cantidad de vitamina C.<br>
+5. Tienen manganeso.
+El manganeso es un mineral que actúa como un potente antioxidante y antiinflamatorio natural. Una taza de fresas contiene 21 gramos de manganeso.<br>
+6. Contribuyen a la salud ósea.
+Las fresas tienen un alto contenido en magnesio, potasio y vitamina K, que ayudan a potenciar la salud de los huesos.<br>
+7. Potencian la salud ocular.
+Algunos estudios han senalado que las fresas mejoran la salud de los ojos al disminuir el riesgo de degeneración macular.<br>
+8. Tienen un efecto antienvejecimiento.
+El ácido elágico presente en las fresas mejora la elasticidad de la piel y retrasa la aparición de los signos del envejecimiento, como las arrugas y la flaccidez, al tiempo que la biotina contribuye a mantener un cabello y unas unas sanas.<br>
+9. Son una importante fuente de vitamina C.
+Una taza de fresas contiene el 136% de la cantidad diaria recomendada de vitamina C, lo que las convierte en un poderoso antioxidante que potencia el sistema inmunitario.<br>
+10. Ayudan a perder peso.
+Por su bajo contenido calórico y su alto contenido en nitrato, las fresas son un buen aliado para las dietas de pérdida de peso. Ayudan a reducir el apetito, favorecen la circulación sanguínea y, además, ¡son deliciosas!
+    </div>
+    <div id="imagenf">
+    <img src="imagenes/fresa.jpg" width="300">
+    </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="gespinosa">
+	<div data-role="header">
+		<h1>Grosella Espinosa</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">        
+Las grosellas son bien conocidas en la elaboración de postres, como pasteles, batidos y crumbles. Se las suele conservar secas, en jarabe azucarado, como mermelada o encurtidas. También se utilizan para aromatizar bebidas y licores o elaborar vino de fruta.
+Una de las propiedades saludables más sorprendentes, es su capacidad para disminuir los lípidos totales, el colesterol, los triglicéridos, el colesterol LDL y el colesterol VLDL desde el 34 hasta el 82% incrementando además el colesterol HDL (colesterol bueno), todo en un equilibrio perfecto. El Amla produce un efecto más beneficioso para la salud que el fármaco simvastatina utilizado para disminuir los niveles de colesterol en sangre.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/gespinosa.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="gnegra">
+	<div data-role="header">
+		<h1>Grosella Negra</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Científicamente, se ha demostrado que el aceite de semilla de grosellero negro tiene un moderado efecto inmunológico atribuible a su capacidad para reducir la producción de prostaglandina E2.3 Otros estudios le atribuyen a la baya de grosellero negro propiedades antioxidantes, antiinflamatoriasy antimicrobianas4 5
+Además, el grosellero negro tiene una gran cantidad de vitamina C por lo que tradicionalmente ha sido usado para prevenir enfermedades como elescorbuto.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/gnegra.jpg">
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="groja">
+	<div data-role="header">
+		<h1>Grosella roja</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">        
+Las grosellas rojas son unas pequenas frutas redondas de color rojo. Aunque se pueden consumir crudas, su sabor agridulce las hace indicadas para la elaboración de mermeladas, batidos, helados, etc. Son ricas en vitaminas y minerales.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/groja.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="zarzamora">
+	<div data-role="header">
+		<h1>Zarzamora</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+• Ayudan a combatir diarreas, gastroenteritis, colitis y cólicos menstruales<br>
+•  Enfermedades febriles: el jugo de este fruto es refrescante y tonificante, por lo que resulta muy apropiado para los enfermos febriles o debilitados.<br>
+•  Afecciones bucofaríngeas: tiene un efecto beneficioso sobre las aftas (llagas) bucales, gingivitis (inflamación de las encías), estomatitis(inflamación de la mucosa bucal), faringitis y amigdalitis.<br>
+•  Los frutos maduros tienen por su alto contenido en vitaminas sonantiescorbúticas, útiles también como astringentes y diuréticos<br>
+•  Ayuda contra la gripe, resfriados, tos y constipados<br>
+•  Corrige las inflamaciones internas.<br>
+•  Fortifica la sangre y el organismo en general<br>
+•  Ayuda en casos de hemorroides<br>
+•  Evita la retención de líquidos, por lo que el consumo de esta fruta es ideal si estás realizando una dieta. Contienen pocas calorías, evitas la inflamación y tu piel luce más bella y tersa.<br>
+•  Previene el reumatismo
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/zarzamora.jpeg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="limon">
+	<div data-role="header">
+		<h1>Limón</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Usos del limón<br>
+El jugo de limón es efectivo para quitar manchas de óxido, de tinta y de moho. También se usa para darle sabor a las comidas y para quitar malos olores. El limón es un buen aliado en rutinas de belleza. Es un efectivo astringente para el cutis, para reducir poros abiertos.<br>
+El limón es un aclarante natural
+Para cabellos de colores claros, el jugo de limón puede hacerlos rubios. También borra las pecas, las manchas por la edad y otras manchas del cutis. Otro beneficio del limón para la piel es que es un buen remedio natural para combatir el acné.<br>
+Limón para aliviar resfríos
+Para la salud, el limón es un remedio muy popular para aliviar resfríos y aliviar el dolor de garganta. Se pone el jugo de limón a calentar en una sartén y se le agrega un poco demiel de abeja. Mientras todavía está caliente, se hacen unas gárgaras con la mezcla. Después se toma el resto.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/limon.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="mandarina">
+	<div data-role="header">
+		<h1>Mandarina</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        1.	Colesterol. Las propiedades para reducir el colesterol de la sangre se encuentra en la cáscara de mandarina. Ahí se concentra 20 veces más la cantidad de compuestos llamados flavonas polimetoxilatados que en el jugo.<br>
+2.	 Aterosclerosis. Investigadores de la Universidad de Western Ontario en Canadá, confirman que la mandarina contiene nobiletina, un flavonoide que se encuentra en altas dosis en la corteza blanca de las mandarinas y es 10 veces más poderoso que la naringenina para combatir la aterosclerosis.<br>
+3.	 Cáncer. El consumo habitual de este fruto cítrico ayuda a prevenir algunos tipos de cáncer debido a los efectos del óxido nítrico.<br>
+4. Estrenimiento. Esta fruta es ideal para combatir el estrenimiento debido a que el componente que mayormente se encuentra en la mandarina es agua, con 88% por ración. Además aporta 2g de fibra dietética, concentrada principalmente en la parte blanca de la pulpa y la corteza.<br>
+5. Anemia. De acuerdo con National Institutes of Health, las mandarinas proporcionan la mitad de los requerimientos diarios recomendados de vitamina C (32mg por cada 100 g), nutriente esencial para absorber el hierro. Por lo que recomienda su consumo cuando se padece anemia por carencia de hierro.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/mandarina.jpg" width="300">
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="naranja">
+	<div data-role="header">
+		<h1>Naranja</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Un compuesto encontrado en la naranja y en otras frutas cítricas conocido como D-limoneno ha probado ser efectivo en laprevención del cáncer, tales como cáncer de piel, cáncer de mama, de pulmón, de boca y de colon. A su vez,  el alto contenido de antioxidantes  ayuda a proteger las células de posibles danos de los radicales libres.
+A su vez, otro compuesto llamado hesperidina ha probado ser útil para bajar el colesterol. Su contenido es más abundante en la cáscara que en la pulpa. Este mismo compuesto, la hesperidina, junto al magnesio ayudan a bajar la presión alta.
+Como si fuera poco, la naranja también tiene beneficios para el corazón, al contener fibras, folato y hesperidina, que promueven el correcto funcionamiento del sistema cardiovascular. Comer una naranja al día ayuda a mantener tu sistema cardiovascular saludable.
+Otros beneficios:<br>
+•	Promueve la pérdida de peso por sus bajas calorías<br>
+•	Permite mantener una piel saludable<br>
+•	Protege ante infecciones
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/naranja.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="pomelo">
+	<div data-role="header">
+		<h1>Pomelo</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Consumir pomelos protege uno de nuestros órganos más importantes, el corazón, pues con tan solo comer uno al día se reducen los niveles de colesterol malo en un 15,5% y los triglicéridos en un 27%, según publicó el Journal of Agricultural and Food Chemistry. Cuanto más rojo es el color del pomelo, más beneficios, pues indica una mayor presencia de antioxidantes.
+Mejora el aspecto de la piel<br>
+¿Sabías que el pomelo puede ayudar a eliminar manchas oscuras que a veces aparecen en las rodillas y los codos? Tienes que cortar uno por la mitad, espolvorearle una cucharadita de azúcar -que funciona a modo de exfoliante suave- y frotarlo sobre el área de la piel que quieres aclarar. Puedes aplicarlo sobre el rostro, pero con cuidado en las pieles sensibles porque puede irritarlas.
+La dermatóloga Jessica Wu, de la ciudad de Los Ángeles, explica que este beneficio del pomelo para la piel se debe a su contenido de vitamina C, que elimina las manchas porque reduce el exceso de producción de pigmento de la piel.
+¡Rejuvenece!<br>
+Los beneficios del pomelo para la piel no terminaron en el punto anterior. ¡Hay otro más! Que seguro te interesará; la rica cantidad de vitamina C que tiene esta fruta hace que nuestra piel se mantenga en perfectas condiciones -firme, tersa y suave- puesestimula la producción de colágeno. Wu recomienda comer un pomelo al día para notar estas bondades.
+Acelera el metabolismo.<br>
+¡Comer la mitad de un pomelo antes de cada comida puede ayudarte a adelgazar! Los compuestos de esta fruta cítrica -entre ellos, su vitamina C- aumentan el metabolismo, es decir, aceleran la quema de grasa y la estabilización de azúcar en sangre y los niveles de insulina, lo cual significa que te hacen sentir con más energía y menos hambre entre comidas. Además, es un alimento natural, nutritivo y que nos aporta pocas calorías. ¡Perfecto para toda dieta!
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/pomelo.jpg" width="300">
+        </div>
+    </div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="melon">
+	<div data-role="header">
+		<h1>Melón</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Sin ninguna duda, pocos son los alimentos que pueden igualar su bajo contenido en calorías, ya que además de esta cuestión principal, se trata de una fruta que tiene un 90% de agua en su composición.<br>
+Por este motivo, y tal y como venimos indicando a lo largo de este artículo, tiene una capacidad refrescante tal que lo convierte en un sustituto ideal de bebidas gaseosas.<br>
+Entre los beneficios que contiene, podemos destacar la vitamina A, que como sabemos ayuda a las personas que sufren de sequedad en las mucosas y en la piel.<br>
+También cuenta con vitamina E, una sustancia sumamente antioxidante y protectora que ayuda a prevenir el cáncer y la aparición de enfermedades cardiovasculares.<br>
+Actúa como laxante, diurético (ideal para eliminar las toxinas del organismo) y ayuda a neutralizar la acidez.<br>
+Eso sí, no debemos olvidarnos tampoco de su alto contenido en betacarotenos, siempre y cuando optemos por los melones de pulpa anaranjada.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/melon.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="sandia">
+	<div data-role="header">
+		<h1>Sandía</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Beneficios para el corazón.
+Su composición a base de L-citrulina nos ayuda a relajar los vasos capilares,  y no solo eso, metaboliza arginina, lo cual es muy positivo para el corazón y la hipertensión.<br>
+Para aliviar la fatiga muscular:<br>
+Cuando hacemos un esfuerzo, cuando practicamos deporte o acabamos una larga jornada de trabajo, nuestros músculos almacenan ácido láctico y amoníaco. La composición de la sandía rica en L-citrulina, es perfecta para que los músculos se relajen y obtengan energía de nuevo. Es ideal tomarla después de hacer un esfuerzo. Además de ello, su contenido en potasio refuerza el sistema muscular y nervioso.<br>
+Efecto antioxidante:<br>
+Basta con ver ese atractivo color rojo de la sandía para saber que contiene un alto nivel de antioxidantes, ideal para prevenir el envejecimiento y mantener en estado óptimo nuestros tejidos.<br>
+Propiedades depurativas:<br>
+Su alto contenido en fibra es ideal para eliminar elementos tóxicos de nuestro organismo y para limpiar nuestros intestinos. No dejes de probarlo
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/sandia.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="aguacate">
+	<div data-role="header">
+		<h1>Aguacate</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Saludable para la vista.
+Si deseas mantener tus ojos siempre saludables, come aguacate! Gracias a un caratenoide llamado luteína, el aguacate absorbe los rayos ultravioletas del sol evitando así que estos le hagan dano a la retina. Además protege los ojos contra la degeneración y la aparición de cataratas.<br>
+Contiene los beneficios de la Vitamina E
+Los aguacates son una gran fuente de vitamina E. Cuando consumes de manera habitual esta vitamina, el cuerpo está totalmente equipado para protegerse contra cualquier enfermedad. Además, La vitamina E también ayuda a revitalizar la piel haciéndola suave y flexible gracias a sus propiedades antioxidantes. No es esto maravilloso?
+Mantiene sano tu corazón haciéndote sentir más saludable.
+ Una tasa de este sabroso fruto tiene un porcentaje bastante alto de ácido fólico (23%). El ácido fólico es una vitamina que se encuentra en los vegetales de hoja verde y su función es ayudar a la salud en general.<br>
+En el embarazo se recomienda siempre consumir ácido fólico ya que ayuda a la correcta formación del feto y a evitar posibles malformaciones. La grasa saludable del aguacate sumado con la vitamina E son buenas para el corazón.
+Ayuda a bajar el colesterol.<br>
+ El aguacate es alto en Beta-sitosterol, un compuesto que ha demostrado mantener los niveles de colesterol bajos. El aguacate contiene grasa mono insaturada (saludable para el organismo), la cual reduce el colesterol LDL que es perjudicial para el cuerpo.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/aguacate.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="carambola">
+	<div data-role="header">
+		<h1>Carambola</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        La carambola, a pesar de ser una fruta aún desconocida y poco demandada por el consumidor presenta una apariencia, propiedades nutritivas y un aporte en antioxidantes que la hace ser una buena aliada para nuestra salud. Por ello su consumo es muy recomendable para los ninos, los jóvenes, los adultos, los deportistas, las mujeres embarazadas o madres lactantes y las personas mayores.<br>
+1. Buena para dietas de adelgazamiento<br> 
+2. Posee propiedades laxantes <br>
+3. Recomendada para diabetes, hipertensión y afecciones de corazón y vasos sanguíneos <br>
+4. Aporta vitamina C y A <br>
+5. Fuente de potasio <br>
+6. ¿Quiénes deben tomarlo? <br>
+7. Usos contraindicados 
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/carambola.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="coco">
+	<div data-role="header">
+		<h1>Coco</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Los beneficios del coco son ciertamente interesantes para personas sanas de todas las edades, especialmente cuando, y esto hay que decirlo bien claro, es consumido de manera ocasional.<br>
+Esto es así porque enriquece la dieta con una serie muy interesante de sustancias nutritivas, al ser una fruta muy rica en hierro y potasio, y en definitiva en aquellas sales minerales que participan en la propia mineralización delos huesos, como pueden ser el calcio, el fósforo o el magnesio.<br>
+También es interesante su contenido en fibra, lo que confiere alcoco propiedades ciertamente laxantes, ayudando a su vez a reducir y bajar el colesterol alto y a controlar el azúcar en sangre, siendo igualmente ideal para diabéticos.<br>
+En lo que se refiere a las distintas vitaminas que posee esta fruta, destaca la vitamina E, como sabemos, de importante acción antioxidante.<br>
+No obstante, el coco es una fruta que no se aconseja para aquellas personas que sufran alguna dolencia cardiovascular al contener una importante cantidad de ácidos grasos saturados, así como a aquellas personas que se encuentren siguiendo una dieta de control de peso, al poseer un elevado valor energético.<br>
+Es ideal por ejemplo como postre para los más pequenos, o para personas que se encuentren débiles.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/coco.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="chirimoya">
+	<div data-role="header">
+		<h1>Chirimoya</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        La chirimoya una fruta de pulpa refrescante y muy aromática. De escasa importancia a nivel mundial -en el mercado espanol alcanza un consumo más que significativo-, es fuente de numerosas propiedades muy beneficiosas para la salud. Por eso en este artículo trataremos de ver los beneficios que nos aportan, cómo debemos comerlas, a quién convienen, en definitiva, aquellos aspectos que nos interesa conocer de ellas para sacarles el mejor partido posible.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/chirimoya.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="datil">
+	<div data-role="header">
+		<h1>Dátil</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Tienen un alto contenido en 
+azúcar, es un fruto muy nutritivo debido a su alto contenido en carbohidratos, hierro, fósforo y potasio. Contiene vitaminas: A, tiamina, niacina, triptófano, ribofravina, y ácido ascórbico.<br>
+
+Esta fruta es muy considerada en la medicina natural, sobre todo en caso de bronquitis, asma, tuberculosis, tos, fiebres, cáncer, catarro, molestias estomacales. Esta fruta hervida en agua o leche y con unas cucharadas de miel suaviza las vías respiratorias.<br>
+
+Muy aconsejable incorporarlo a nuestra dieta si practicamos deporte o desgastamos mucha energía y un gran aliado en los esfuerzos intelectuales.<br>
+
+Al contener triptófano es un alimento que ayuda a la relajación y a conciliar el sueno.<br>
+
+Sus grasas que son de menos del 1%, son cardiosaludables, omega-3, omega-6 y ácido oleico.<br>
+
+Los dátiles también son fuente de fibra soluble por lo que ayuda contra el estrenimiento.<br>
+
+Contiene fitonutrientes con efectos antioxidantes.<br>
+
+Y por su alto contenido en azúcar es considerada una de las frutas más energéticas y afrodisiacas.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/datil.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="pasion">
+	<div data-role="header">
+		<h1>Fruta de la pasión</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        1. Sus propiedades calmantes reducen los dolores musculares y dolores de cabeza. Relajan el cuerpo ayudando a combatir el estrés y el insomnio.<br>
+2. Ayuda a eliminar la tos y los problemas respiratorios que puedan ser provocados por el asma.<br>
+3. Aporta al cuerpo vitaminas A y C y del complejo B, así como potasio, fósforo y magnesio.<br>
+4. Es rica en carbohidratos y azúcares, lo que la hacen ideal para levantar el ánimo y las energías por medio de licuados o jugos preparados, recomendado para deportistas o personas que sufren de cansancio. <br>
+5. Su gran contenido en fibras la hace un excelente remedio para el estrenimiento, ya que ayuda a regular la digestión. Gracias a esto también se reducen los niveles de colesterol y se previenen problemas intestinales.<br>
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/pasion.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="kiwi">
+	<div data-role="header">
+		<h1>Kiwi</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        •	Problemas de transito intestinal, estrenimiento (gran poder laxante)
+Su contenido de magnesio y fibra soluble e insoluble le confiere fuertes propiedades laxantes. La fibra previene el estrenimiento y mejora el tránsito intestinal.<br>
+•	Menopausia, embarazo
+El ácido fólico contenido en el Kiwi reduce el riesgo cardiovascular y de espina bífida durante el embarazo y sumando a su aporte de vitamina C el Kiwi se recomienda especialmente en situaciones como periodos de crecimiento, embarazo y lactancia materna.<br>
+•	Antioxidante, previene problemas cardiovasculares y el cáncer
+La vitamina C, como antioxidante, contribuye a reducir el riesgo de múltiples enfermedades, entre ellas, las cardiovasculares, las degenerativas e incluso el cáncer.<br>
+•	Combatir la Anemia con Kiwi
+La vitamina C aumenta la absorción del hierro de los alimentos, por eso se aconseja en caso de anemia ferropénica para acompanar a los alimentos ricos en hierro o a los suplementos de este mineral ya que acelera la recuperación.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/kiwi.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="litchi">
+	<div data-role="header">
+		<h1>Litchi</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Es una fruta que por su alto contenido en vitamina C se recomienda su consumo en aquellas personas que se encuentren en riesgo de sufrir carencias, sobretodo en personas que no toleran los cítricos u otros vegetales ricos en esta vitamina.<br>
+Destaca la acción antioxidante de esta vitamina, por lo que es una fruta útil para personas concolesterol alto, porque inhibe la oxidación del denominado como colesterol malo.
+Es igualmente rico en potasio y sumamente bajo en sodio, por lo que su consumo se aconseja a su vez a personas con hipertensión arterial.<br>
+Es una fruta útil para reducir el riesgo de enfermedades cardiovasculares, ayudando a cuidar el corazón y a proteger los vasos sanguíneos.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/litchi.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="mango">
+	<div data-role="header">
+		<h1>Mango</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Degeneración macular asociada a la edad: El antioxidante Zeaxantina que se encuentra en el mango, filtra los rayos de luz azul danina, y se cree que desempena un papel protector en la salud de los ojos. Diversos estudios han demostrado que una mayor ingesta de todas las frutas en general, 3 o más porciones al día, disminuye el riesgo de la degeneración macular asociada a la edad.<br>
+ 
+Prevención del asma: Los riesgos para el desarrollo de asma son más bajos en las personas que consumen una gran cantidad de ciertos nutrientes. Uno de estos nutrientes es el beta-caroteno, que se encuentra en el mango, la papaya, los albaricoques, o el brócoli.<br>
+ 
+Cáncer: Las dietas ricas en beta-caroteno también puede desempenar un papel protector contra el cáncer de próstata, según un estudio realizado por la Escuela de Salud Pública de la Universidad de Harvard (EEUU) y se ha demostrado que tiene una relación inversa con el desarrollo de cáncer de colon.<br>
+ 
+Salud ósea: Un bajo consumo de vitamina K ha sido asociado con un mayor riesgo de fractura ósea. Por tanto, el consumo adecuado de vitamina K, presente también en el mango, es importante para mejorar la absorción de calcio esencial para nuestros huesos.<br>
+ 
+Diabetes: Diversos estudios han demostrado que las personas con diabetes tipo 1 que siguen una dieta alta en fibra tienen niveles de glucosa más bajos, y las personas con diabetes tipo 2 mejoran sus niveles de azúcar en la sangre, los lípidos y los niveles de insulina.<br>
+ 
+Digestión: Debido a su contenido en fibra y agua, el mango ayuda a prevenir el estrenimiento y a promover la regularidad.<br>
+ 
+Enfermedades del corazón: La fibra, el potasio y el contenido de vitaminas que contienen los mangos, ayudan a prevenir enfermedades cardiovasculares. Muchos estudios han demostrado que un aumento en la ingesta de potasio y una disminución del sodio son es la combinación perfecta para reducir el riesgo de enfermedades relacionadas con el corazón.<br>
+ 
+Piel y pelo: Los mangos también son grandes aliados para el cabello, ya que contienen vitamina A, un nutriente necesario para la producción del sebo que mantiene el cabello hidratado. La vitamina A también es necesaria para el crecimiento de todos los tejidos corporales, incluyendo la piel y el cabello.<br>
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/mango.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="papaya">
+	<div data-role="header">
+		<h1>Papaya</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        La papaya te provee un alimento que no es únicamente exquisito y colorido. Los beneficios de la papaya en sus diferentes variedades te proveen de un alimento nutritivamente denso que es rico en anti oxidantes como el caroteno, la vitamina C y los flavonoides; también es rico en vitaminas del complejo B y minerales como el potasio y el magnesio, así como fibra dietética.<br>
+Un beneficio importante de la papaya es su poder como desintoxicante debido a la cantidad de fibra que posee. Esta fibra aunado a los antioxidantes que la papaya posee ayudan a limpiar los intestinos y el colon.<br>
+Otro de los beneficios de la papaya se encuentra en su alto contenido de enzimas que funcionan excepcionalmente, conjuntamente con la vitamina C, E y beta-carotenos que posee para tratar inflamaciónes, ayudar con la cicatrización de quemadas y otras condiciones de la piel.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/papaya.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="pina">
+	<div data-role="header">
+		<h1>Pina</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Una pina contiene una gran cantidad de propiedades y beneficios debido a las vitaminas y minerales esenciales para el buen funcionamiento del cuerpo y una buena salud, y por increíble que parezca, ese dulce y fresco sabor no necesariamente significa que haya muchas calorías presentes.<br>
+•	La pina posee grandes beneficios debido a su fibra y potasio. 150 gm de pina tan sólocontienen 80 calorías, aproximadamente 2.2 gm de fibra y 178 mg de potasio; una excelente manera de mantener una dieta dulce y saludable.<br>
+•	Entre las propiedades de la pina se pueden mencionar las vitaminas A, B1, B2, B3, B5, B6, C, minerales como zinc, hierro, manganeso y magnesio.<br>
+•	Las propiedades de la pina para regular y neutralizar fluidos en el cuerpo se debe a su alto contenido de  bromelina, una enzima que proporciona muchos beneficios.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/pina.jpg" width="300">
+        </div>
+        </div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="platano">
+	<div data-role="header">
+		<h1>Plátano</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Esta fruta tropical posee una excelente combinación de energía, minerales y vitaminas que la convierten en un alimento indispensable en cualquier dieta, incluidas las de diabetes y adelgazamiento. <br>
+
+Es, además, el complemento perfecto para personas con gran actividad física, como ninos y deportistas. <br>
+
+"Un árbol frutal extraordinario". Los árabes y los griegos definían con esta halagadora frase al plátano, cuyas propiedades beneficiosas para la salud se conocen desde hace miles de anos. En la India recibía el nombre de “la fruta de los sabios”, ya que, según una antigua leyenda, los más insignes pensadores hindúes meditaban bajo su sombra mientras comían de su fruto, símbolo de fecundidad y prosperidad. El plátano no es sólo de una de las frutas más consumidas en el mundo entero, sino también una de las más sanas. Su sabor es dulce y delicioso, es una fruta rica en vitaminas C y B6 y minerales esenciales, y se caracteriza por dotar de sabor a infinidad de platos.<br>
+ 
+Sus Propiedades<br>
+•	Una de las frutas más nutritivas<br>
+•	Ideal para personas que desempenan actividades físicas.<br>
+•	Beneficioso contra úlceras de estómago.<br>
+•	Bueno contra el colesterol<br>
+•	Previene calambres si se toma antes del ejercicio físico
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/platano.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="albaricoque">
+	<div data-role="header">
+		<h1>Albaricoque</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+El albaricoque es rico en vitaminas (provitamina A y vitamina C), y minerales (como el potasio, calcioy magnesio), mientras que también destacan por su contenido en betacaroteno y taninos.<br>
+En lo que se refiere a sus beneficios y propiedades, es ideal en los ninos, ya que ayuda en el crecimiento óseo, en los tejidos y en el propio sistema nervioso de éstos.<br>
+Posee un gran poder laxante, por lo que ayuda en los problemas de tránsito intestinal, como es el caso del estrenimiento (e incluso tiene la capacidad de desinflamar los intestinos), así como en los problemas de retención de líquidos al ser diurético.<br>
+También ayuda contra la hipertensión y la gota, a la vez que previene problemas tanto cardiovasculares como degenerativos, protegiendo la visión, la piel, el cabello, los dientes y los huesos.<br>
+Actúa sobre el sistema nervioso, no sólo en su desarrollo, sino facilitando el impulso nervioso, e incluso es una fruta ideal para aquellas personas que padecen estrés.<br>
+Es bueno cuando se produce una bajada de defensas, al reforzar el sistema inmunológico. Eso sí, no podíamos olvidarnos del poder de los betacarotenos y de los taninos, que al ser unos potentes antioxidantes, ayudan a prevenir la aparición del cáncer.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/albaricoque.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="cereza">
+	<div data-role="header">
+		<h1>Cereza</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        1. Las cerezas, son conocidas como “súper fruta”, están llenas de antioxidantes llamados antocianinas que ayudan en la reducción de enfermedades cardíacas y cáncer.<br>
+2. Las cerezas son una de las pocas fuentes alimenticias que contienen melatonina, un antioxidante que ayuda a regular el ritmo cardíaco y los ciclos de sueno del cuerpo.<br>
+3. Las cerezas son una excelente fuente de beta-caroteno (vitamina A). De hecho, contienen 19 veces más beta-caroteno que los arándanos y las fresas.<br>
+4. Las cerezas son ricas en vitaminas C, E, potasio, magnesio, hierro, ácido fólico y fibra.<br>
+5. Las cerezas se conocen como “alimento del cerebro”, ayudando en la salud del cerebro y en la prevención de la pérdida de memoria.<br>
+6. Debido a que las cerezas contienen antocianinas, pueden reducir la inflamación y los síntomas de la artritis y la gota.<br>
+7. Comer cerezas reduce el riesgo de diabetes.<br>
+8. Las cerezas son una buena fuente de fibra que es importante para la salud digestiva.<br>
+9. Las cerezas son una buena merienda o el postre de elección importante para el mantenimiento de peso, debido al poco aporte de calorías.<br>
+10. Debido a sus poderosos beneficios anti-inflamatorios, las cerezas pueden actuar en reducir el dolor; son muy aconsejadas para el dolor de tendones y músculos que sufren por sobrecarga los corredores y atletas después de los entrenamientos.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/cereza.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="ciruela">
+	<div data-role="header">
+		<h1>Ciruela</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        La ciruela tiene propiedades laxantes (suaves o inmediatas, según la cantidad ingerida), antianémicas (por su alto contenido en hierro), antitusivas, expectorantes y reguladoras del intestino por su alto contenido en fibra.<br>
+La ciruela puede transformarse en ciruela pasa. La ciruela pasa es una ciruela que ha sido secada al sol sin dejar que se fermente.<br>
+Las ciruelas pasas tienen más propiedades nutritivas que las naturales, porque éstas aumentan debido a que el proceso de secado hace que el agua disminuya y se concentren más los componentes naturales.<br>
+Los usos de la ciruela son los siguientes:<br>
+	para el estrenimiento, ya que se utiliza como laxante suave o inmediato (según la cantidad ingerida).<br>
+	para la anemia, por su alto contenido en hierro.<br>
+	para combatir la tos, favorecer la expulsión de las secreciones acumuladas en los pulmones y sedar el organismo.<br>
+	ideal en casos de bronquitis.<br>
+	además de su ya comentado efecto laxante, las ciruelas constituyen un buen remedio para facilitar la digestión.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/ciruela.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="higo">
+	<div data-role="header">
+		<h1>Higo</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Diabetes<br>
+Las hojas del higo contienen altas cantidades de insulina natural, por lo que su consumo reduce la necesidad de inyectarse dicha sustancia. Es un excelente remedio natural para aquellas personas que sufren de diabetes.<br>
+Triglicéridos<br>
+Las hojas de higo reducen los niveles de triglicéridos en el cuerpo, por tanto se deben consumir con regularidad, lo cual previene de infartos y obesidad.<br>
+Úlcera<br>
+Un buen remedio contra la úlcera es mascar las hojas de higo y tragar el jugo resultante.<br>
+Fibra.<br>
+Los higos son una de las frutas que más fibra tiene, de modo que ingerirlos es beneficioso para el sistema digestivo. Por otra parte, es aconsejable que lo consuman las personas obesas o quienes quieren reducir su peso corporal, ya que acelera el ritmo digestivo de nuestro cuerpo. Además es un laxante natural que sirve para combatir elestrenimiento.<br>
+Bronquitis.<br>
+Con las hojas de higo se prepara un té que es un remedio casero ideal para tratar labronquitis, el asma y otras enfermedades de las vías respiratorias.
+Presión arterial.<br>
+El higo es una fuente importante de potasio, mineral efectivo para reducir y controlar lapresión arterial, por lo que se recomienda comer esta fruta con regularidad a las personas que padezcan de hipertensión.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/higo.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="kaki">
+	<div data-role="header">
+		<h1>Kaki</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Si estamos siguiendo una dieta para bajar de peso, estamos de parabienes: el kaki es una fruta con pocas calorías y grasas y con una gran cantidad de fibra alimentaria, que nos ayudará a reducir centímetros fácilmente.<br>
+Pero no solo eso, los kakis también son ricos en antioxidantes -vitamina A, vitamina C, betacarotenos y luteína- que ayudan a combatir a los radicales libres causantes del envejecimiento y de algunas enfermedades, al tiempo que combaten los tumores, son antiinflamatorios, antiinfecciosos y antihemorrágicos.<br>
+Otro beneficio del kaki es su alto contenido en Vitamina B, la cual ayuda a las funciones metabólicas del cuerpo. Los kakis contienen minerales como el potasio o el fósforo, que además de luchar contra los radicales libres, aumentan la cantidad de hemoglobina en sangre.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/kaki.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="manzana">
+	<div data-role="header">
+		<h1>Manzana</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Las manzanas han sido apreciados durante siglos debido a los múltiples beneficios que proporcionan ala salud. Todos los recientes estudios realizados indican que realmente la manzana posee una cantidad innumerable de propiedades benéficas.<br>
+•	Entre las propiedades de la manzana se puede mencionar su gran concentración de antioxidantes<br>
+•	Comer una manzana reduce los niveles de bacterias dentro de la boca.<br>
+•	Otra de las propiedades de la manzana son los flavonoides, que reducen el riesgo de desarrollar ciertos tipos de cáncer<br>
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/manzana.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="melocoton">
+	<div data-role="header">
+		<h1>Melocotón</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Cáncer: Como una fuente excelente de vitamina C que actúa como oxidante. Los melocotones pueden ayudar a combatir la formación de radicales libres que pueden producir cáncer.<br>
+ 
+Piel: También la vitamina C de melocotón es el causante de mejorar la textura de nuestra piel y ayudarnos a reducir las arrugas, mejorar la textura general de la piel y combatir el dano causado en la misma por el sol o incluso la contaminación. Además la vitamina C también juega un papel vital en la formación de colágeno, el sistema de soporte de la piel.<br>
+ 
+Diabetes: El extracto de melocotón ha demostrado ser eficaz para aniquilar incluso los tipos más agresivos de células de cáncer de mama sin danar las células sanas normales en el proceso. De hecho, las personas con diabetes tipo 1 que consumen dietas altas en fibra tienen un nivel menor de glucosa en sangre; las personas con diabetes tipo 2 tienen un mejor control de azúcar en la sangre y de los niveles de insulina.<br>
+ 
+Salud del corazón: Gracias a su contenido en fibra, potasio y vitamina C, los melocotones son un buen apoyo para la salud del corazón. Un aumento en la ingesta de potasio, junto con una disminución en alimentos con sodio es el cambio dietético más importante que una persona puede hacer para reducir el riesgo de enfermedades cardiovasculares.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/melocoton.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="nectarina">
+	<div data-role="header">
+		<h1>Nectarina</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        •	Posee un alto contenido de betacarotenos, que producen la  reducción de ataques cardíacos y el  aumento de la eficiencia del sistema inmunitario.<br>
+•	Su acción positiva sobre la piel la ha convertido en una ¡fruta rejuvencedora!.<br>
+•	Vitamina A, si quieres tener los dientes sanos, nada mejor que la vitamina A, encargada  del mantenimiento de tejidos blandos y óseos y de la piel,este nutriente es esencial en el ser humano, debido a que desarrolla una buena visión.<br>
+•	Otra vitamina esencial para la piel es la Vitamina C, ayuda a que el organismo absorba el hierro,  produce colágeno y una piel más suave.<br>
+•	Vitamina B3 o Niacina para la eliminación de tóxicos químicos del organismo y reduce el colesterol.<br>
+•	Fibra depura el organismo<br>
+•	Al consumir nectarinas, ingerimos potasio cuyas función es trasmitir y genenerar el impulso nervioso, para la actividad muscular e interviene en el equilibrio del agua de la célula, tanto en su interior como en su exterior, por lo tanto el potasio controla la retención de líquidos.<br>
+•	Las nectarinas aporta pocas calorías<br>
+•	Alto poder depurativo del organismo<br>
+•	Aliada ideal para aquellas que realizan una dieta de adelgazamiento o mantenimiento de peso.<br>
+•	La nectarina es un alimento bajo en sodio, 100 g de este alimento contiene 1 mg., este hecho resulta beneficioso  para quienes padecen hipertensión  o  exceso de colesterol.<br>
+•	El magnesio es otro componente de las nectarinas, este mineral equilibra el sistema nervioso central, y proporciona una acción sedante, por lo que se recomienda en momentos de estrés.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/nectarina.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="nispero">
+	<div data-role="header">
+		<h1>Níspero</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Fibra
+El níspero es rico en una fibra soluble soluble, la pectina, la cual mantiene la humedad en el colon y funciona como un laxante natural. Por esta vía, se protege la membrana mucosa del colon de sustancias tóxicas y se previene la aparición de cáncer en el sistema.<br>
+Colesterol
+Al parecer se ha confirmado que la pectina presente en el níspero reduce los niveles decolesterol en sangre, pues reduce su reabsorción por el organismo y lo elimina a través de la excreta.<br>
+Vitamina A y antioxidantes
+Esta fruta es una fuente directa de vitamina A y antioxidantes, lo que fortalece las membranas mucosas y la piel. Los estudios indican que comer nísperos en grandes cantidades previene la formación de cáncer bucal y del pulmón.<br>
+Potasio, vitamina B y vitamina C
+El níspero fresco es muy rico en potasio y en algunas vitaminas del complejo B, tales como ácido fólico, vitamina B6 y niacina. También tiene grandes cantidades de vitamina C. El potasio es un componente esencial en las células y en los fluidos del cuerpo, que ayuda a controlar la presión arterial y previene los infartos.<br>
+Minerales
+También el níspero es rico en minerales como el hierro, cobre, calcio y manganeso, entre otros. El magnesio participa en la síntesis de enzimas antioxidantes, y el cobre y el hierro se utilizan para producir los glóbulos rojos.<br>
+<h2>Advertencias</h2>
+Las semillas del níspero contienen algunas sustancias tóxicas para el organismo. De manera que es menester retirarlas a la hora de consumir la fruta o hacer cualquier preparación. Es importante especialmente supervisar a los ninos cuando están ingiriéndolo.
+No olvides incorporar el níspero, una fruta quizás no tan conocida como otras pero igualmente sabrosa, a tu diera regular. Sus propiedades y beneficios así lo ameritan.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/nispero.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="pera">
+	<div data-role="header">
+		<h1>Pera</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        La pera es, junto a las naranjas y las manzanas una de las frutas más refrescantes, dulces y sabrosas que existen, e importante para la salud de las personas que la comen especialmente por sus beneficios y propiedades.<br>
+Es importante, por ejemplo, su alto contenido en agua, por lo que es muy recomendada en personas que siguen dietas de adelgazamiento, e incluso dietas depurativas, ya que ayuda a eliminar el exceso de toxinas.<br>
+Al igual que muchas frutas, posee fibra tanto soluble como insoluble que además de ayudar a mantener un sistema digestivo sano, favorece la eliminación del colesterol alto y regula la función intestinal.<br>
+Es rica en vitaminas del grupo B, C y E, y también cuenta con un alto contenido en calcio, hierro, ypotasio, por lo que es ideal tanto para los más pequenos como para personas que necesitendepurar su cuerpo.<br>
+Contiene a su vez ácidos orgánicos que ayudan a aliviar los dolores de estómago, y favorece la digestión puesto que incentiva la secreción de jugos gástricos.<br>
+Beneficios y propiedades de la pera<br>
+•	Rica en vitamina C, E y del grupo B.<br>
+•	Contiene potasio, calcio y hierro, entre otros.<br>
+•	Ayuda en la digestión y a mantener un sistema digestivo sano.<br>
+•	Alivia los dolores de estómago y la diarrea, regulando la función intestinal.
+        </div>
+        <div id="imagenf">
+        <img src="frutas/pera.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="uva">
+	<div data-role="header">
+		<h1>Uva</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Las uvas ofrecen una combinación de dulzura y textura, su sabor agridulce las han hecho una popular elección como un alimento entre comidas que además resultan muy refrescantes. Y aunque son pequenas, las uvas ofrecen muy diversas propiedadesexcelentes para la salud.<br>
+•	Una de las propiedades de la uva es un compuesto fitoquímico polifenólico llamado resveratrol.<br>
+•	Otro compuesto polifenólico antioxidante en la uva son las antocianinas, principalmente abundante en las uvas rojas.<br>
+•	Las uvas tienen un contenido calórico muy bajo, 100 g de uvas frescas aportan tan sólo 69 calorías y nada de colesterol.<br>
+•	Entre los minerales de la uva se encuentra el cobre, el hierro y el manganeso.<br>
+•	La uva contiene vitamina C en altas cantidades, también posee vitamina A, vitamina K, algunas vitaminas del complejo B y carotenos.<br>
+•	Entre los beneficios de la uva se puede citar el control de la migrana, del colesterol, de algunasenfermedades del corazón y algunas propiedades de la uva también son anticancerígenas.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/uva.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="almendra">
+	<div data-role="header">
+		<h1>Almendra</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        <h2>La importancia de la almendra para la salud</h2>
+Este fruto seco es una de las pocas fuentes de proteínas vegetales que contiene arginina, un aminoácido esencial para los ninos.<br>
+A pesar de su aspecto seco y homogéneo, la almendra posee una cantidad notable de fibra soluble (10%). Es ideal para estimular los movimientos intestinales y para conferir sensación de saciedad.<br>
+La almendra es también rica en proteínas (19 g/100 g), cantidad similar a la de la carne. Por ello en las dietas vegetarianas las almendras y los frutos secos en general tienen una gran importancia. El contenido en hierro es otra de las virtudes de este delicioso fruto seco. 50 gramos de almendras aportan una dosis de hierro muy similar a la de las espinacas, claro que éstas son 30 veces menos calóricas.<br>
+El magnesio, el fósforo y el manganeso también son otros de los minerales que aporta este fruto seco en cantidades nada despreciables.<br>
+La grasa, un regalo para las arterias<br>
+Los beneficios de las almendras para la salud de las personas son múltiples. Tienen un 52% de grasas. De ellas, dos terceras partes corresponden a ácido oleico. Esto quiere decir que comer almendras es muy parecido a tomar aceite de oliva desde el punto de vista cardiovascular. Tanto es así, que se ha demostrado que en comunidades en que se consumen dosis altas de frutos secos, la incidencia de enfermedades cardiovasculares es menor. Otro punto a tener en cuenta es su contenido en ácido linoleico (omega-6), ácido graso esencial para el organismo que éste no sintetiza y que le es necesario obtener de la dieta.<br>
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/almendras.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="avellana">
+	<div data-role="header">
+		<h1>Avellana</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Las avellanas poseen un alto valor nutricional 16% de proteínas y 62% de  grasas mono y poliinsaturadas, además contiene significativos niveles de tiamina, niacina y altos niveles de calcio, fósforo, magnesio y potasio.<br>
+Las avellanas, como todos los vegetales, no tienen colesterol. Su proteína vegetal es de muy buena calidad, ya que contiene una elevada proporción de arginina este aminoácido es muy importante para el buen funcionamiento del sistema cardiovascular. La riqueza de su composición nutricional se complementa con fibra vegetal, vitaminas, sales minerales y oligoelementos.<br>
+
+Su contenido en vitamina E es muy elevado, por lo cual es 
+perfecto para el beneficio de la piel, las unas y el pelo y su correcta nutrición.<br>
+
+Son muy energéticas, aportan alrededor de 600 calorías cada 100 gramos. También aportan fibras y minerales como el calcio, por lo que son muy recomendables para evitar problemas óseos.<br>
+
+La relación sodio/potasio que tiene la avellana es notablemente favorable al potasio, por lo que es ideal para controlar lahipertensión arterial.<br>
+
+Las grasas de la avellana son insaturadas, con predominio del ácido oleico. Todo ello ayuda a mantener el colesterol controlado.<br>
+
+Las avellanas al tener una cantidad elevada de fibra son idóneas para combatir el estrenimiento.<br>
+
+También son beneficiosas para prevenir la formación de cálculos renales.<br>
+
+Las avellanas son uno de los frutos secos más deliciosos que existen, son muy sencillas de incorporar en todo tipo de comidas, ya sean dulces o saladas. Incluso por sí solas son deliciosas. Una de sus aplicaciones más extendidas es junto al chocolate, ya sea en crema o como ingrediente para bombones.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/avellana.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="cacahuate">
+	<div data-role="header">
+		<h1>Cacahuate</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Los beneficios del cacahuate son muchos, por eso es muy importante tener en cuenta su consumo regular. Este alimento se puede consumir entero o tostado, siendo en ambos casos un gran beneficio para la salud.<br>
+El cacahuate es rico en proteínas, por lo que es muy bueno para reparar y formar tejidos. Es una gran fuente de fibras, siendo realmente bueno para que la digestión se haga en forma correcta. También el cacahuate da la sensación de saciedad y es muy bueno para controlar los niveles de colesterol en sangre y la absorción de glucosa hacia la misma.<br>
+Tiene también vitaminas, los cinco compuestos que forman al complejo B, y contiene vitamina E. Ofrece minerales como hierro y cobre que oxigenan la sangre, calcio y fósforo que favorecen la mantención del sistema óseo, potasio que ayuda a eliminar los cólicos menstruales e inhibe los calambres, y también contiene cobre y zinc, que son favorables para que funcione bien el metabolismo.<br>
+Tanto el cacahuate como la crema de cacahuate son una fuente rica en arginina, que es un aminoácido vasodilatador importante que ayuda a que las arterias tengan un mejor flujo; esto es favorable para la no formación  de coágulos y para el tránsito lento. Presentándose menores cantidades de infartos, embolias, etc.<br>
+También el cacahuate contiene gran cantidad de grasas insaturadas de cadena larga, estas grasas son buenas para la correcta salud del corazón. Por todo lo dicho anteriormente el cacahuate es muy bueno para obtener una correcta nutrición del cuerpo. La crema de cacahuate es muy fácil de realizar: esta se obtiene de moler los cacahuates calientes para suavizar su grasa.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/cacahuate.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="castana">
+	<div data-role="header">
+		<h1>Castana</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        •	Alto contenido en hidratos de carbono, proteínas y fibra.<br>
+•	Bajo contenido calórico (en torno a 190 Kcalorías/100 gr.).<br>
+•	Alto contenido en minerales: magnesio, potasio, hierro y fósforo.<br>
+•	Propiedades vasculares reconstituyentes y antiinflamatorias.<br>
+El otono es una buena época para disfrutarlas, sobretodo porque puedes ir al campo en companía de tu familia, pareja o amigos, armarte con una bolsa y un palo de madera y pasar un día inolvidable buscando castanas en las jornadas más hermosas de esta bella época del ano.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/castana.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="nuez">
+	<div data-role="header">
+		<h1>Nuez</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Se ha demostrado que las nueces mejoran la salud ósea y contribuyen a reducir el impacto de algunas enfermedades neurológicas.<br>
+También alimentan el cerebro con nutrientes que contribuyen a que las conexiones neuronales sean más eficaces. Su alto contenido en grasas saludables es el responsable de estos beneficios.<br>
+Las nueces también son ricas en antioxidantes, unas sustancias que combaten los radicales libres en el cuerpo.<br>
+En especial, contienen una respetable cantidad de melatonina, un antioxidante que nos ayuda a conciliar el sueno y permanecer dormidos durante la noche. Un sueno reparador es indispensable para que nuestro organismo ponga en marcha sus procesos de regeneración y reparación.<br>
+Las nueces, además, ayudan a potenciar nuestro sistema inmunológico y ofrecen múltiples beneficios como antiinflamatorio.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/nuez.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="pacana">
+	<div data-role="header">
+		<h1>Pacana</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        Como te indicábamos en las líneas anteriores, las nueces pecanas son originarias de Norteamérica, lugar de donde suelen provenir (aunque en la actualidad también podemos encontrarlas en otras partes del mundo.<br>
+Destacan por tener una apariencia bastante parecidas a las nueces comunes, pero poseen unaapariencia algo más alargada, además de que su cáscara es lisa (como no ocurre con las más comunes).<br>
+Como ocurre igualmente con las nueces, sorprende su alto contenido en ácidos grasos saludables(sobretodo en ácidos grasos monoinsaturados), lo que significa que son frutos secos ideales a la hora de bajar el colesterol alto (en especial el colesterol LDL), así como los triglicéridos.<br>
+Su alto contenido en fibra la convierten en un fruto seco útil en la prevención del estrenimiento, a la vez que ayudan en el cuidado y protección de nuestro sistema cardiovascular.<br>
+En lo que se refiere a cuántas nueces pecanas comer cada día para así disfrutar de sus principalespropiedades, lo mejor es comer de 4 a 5 nueces pecanas diariamente, lo que equivale a 75 gramos diarios.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/pacana.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+<div data-role="page" id="pistacho">
+	<div data-role="header">
+		<h1>Pistacho</h1>
+	</div>
+	<div data-role="content">	
+		<div id="informacion">
+        El corazón. 
+Como bien sabemos, las personas con un nivel de colesterol, lípidos y lipopotreínas elevado tienen riesgo de sufrir problemas al corazón. El pistacho, por sus altos niveles de luteína, beta-caroteno y gamma-tocoferol (responsables de la vitamina A y E) respecto a otros frutos secos, aumenta el nivel de antioxidantes en sangre.<br>
+¿Por qué esto es importante? Porque los antioxidantes logran que gran parte delcolesterol LDL -el llamado “malo”- se diluya. Con esto se evita que llegue a los vasos sanguíneos y cause una inflamación de los mismos.<br>
+Por otra parte, al ser ricos en vitamina B6, ayudan al cuerpo a generar más hemoglobina, la encargada principal de transportar el oxígeno a las células. De esta forma, personas que tengan cansancio, sueno o anemia pueden ayudar a sus síntomas con unos cuantos pistachos.<br>
+Diabetes<br>
+Comer pistachos puede prevenir la diabetes tipo 2, ya que contiene fósforo, importante para convertir las proteínas en aminoácidos y ayudar a balancear los niveles de glucosa. Una taza de pistachos tiene el 60% de la cantidad diaria recomendada de este mineral.
+Sistema inmunológico y sistema nervioso.<br>
+Como ya dijimos, el pistacho cuenta con grandes cantidades de vitamina B6. En el sistema nervioso, esta vitamina ayuda a la creación de aminoácidos, necesarios para las moléculas mensajeras llamadas aminas. Además, favorece la creación de mielina, una especie de aislante alrededor de las fibras nerviosas, que mejora la transmisión. La serotonina -neurotransmisor-, la melatonina -hormona-, la epinefrina -más conocida como adrenalina- y el ácido gamma-aminobutírico se sintetizan mejor con buenos niveles de la vitamina B6.
+La vitamina B6 contenida en los pistachos ayuda también al sistema inmune a luchar contra infecciones, ya que mejora las funciones de órganos tales como el bazo, encargados de producir glóbulos blancos.<br>
+La belleza de la piel<br>
+La vitamina E, contenida en los pistachos, conocida por ser un potente antioxidante usado a menudo en belleza, es la encargada de mantener la integridad de nuestra piel, protegiéndonos de los rayos UV, dándole al mayor órgano de nuestro cuerpo defensas suficientes para prevenir el envejecimiento prematuro y el cáncer de piel.<br>
+Estrés<br>
+Comer pistachos ayuda a nuestro cuerpo a bajar la presión arterial y la frecuencia cardíaca en momentos de estrés . Una buena dosis de pistachos en una dieta con bajo nivel de grasas ayuda a controlar todos esos momentos del día en que todo parece desbordarse.
+        </div>
+        <div id="imagenf">
+        <img src="imagenes/pistacho.jpg" width="300">
+        </div>
+	</div>
+	<div data-role="footer">
+		<h4></h4>
+	</div>
+</div>
+
+</body>
+</html>
